@@ -6,7 +6,7 @@ for( i = 0; i < arr.length; i++)
      sum+=arr[i];
         
 }
-console.groupCollapsed(sum);
+console.log(sum);
 
 
 
