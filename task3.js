@@ -1,6 +1,8 @@
-
-if (val=='a') {console.log ('a')} 
+var val='d';
+if (val!='a' && val!='b' && val!='c' && val!='d' && val!='e')
+ {console.log('unknown');} 
 else {
-    if (val=='b' || val=='c' || val=='d' || val=='e') 
-    {console.log('others')} else {console.log('unknown');}
+    if (val=='a') console.log('a');
+    else
+    {console.log('others')} 
 }
